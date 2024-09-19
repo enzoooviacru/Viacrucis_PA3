@@ -1,6 +1,6 @@
 # PA3 - Python Data Analysis (PANDAS)
 
-#### This repository serves as a submission for the programming assignment involving 2 problems to be solved used PANDAS.
+#### This repository serves as a submission for Programming Assignment#3 involving 2 problems to be solved used PANDAS.
 
 ### REMINDER: Please download the "cars.csv" file before running any of the codes.
 
