@@ -49,6 +49,11 @@ headtail
 
 ## Code
 ```python
+import pandas as pd
+
+#Read/load the csv file and store it in a variable named "cars" to be able to use its data
+cars = pd.read_csv('cars.csv')
+
 #a) Display the first five rows with odd-numbered columns (columns 1, 3, 5, 7…) of cars.
 #Using the `.iloc` function, we can set the range of values for rows of 0 to 5 and columns starting from 1 with an increment of 2 
 a = cars.iloc[:5, 1::2]
