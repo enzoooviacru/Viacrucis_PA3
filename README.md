@@ -25,9 +25,9 @@ head = cars.head()
 tail = cars.tail()
 
 #Concatenating tail to head into variable "headtail" for better readability
-headtail = pd.concat(combine)
+headtail = pd.concat([head, tail])
 
-#Displaying teh first and last five rows of the dataframe with print() finction
+#Displaying the first and last five rows of the dataframe with print() finction
 print("The first and last 5 rows of dataframe 'cars':")
 headtail
 ```
